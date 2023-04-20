@@ -10,14 +10,9 @@ body {
 #container, .row {
     display: flex;
     justify-content: center;
-    gap: 8px;
-}
-
-.row {
-    flex-basis: 32px;
 }
 
 .cell {
-    flex-basis: 28px;
     border: 2px solid black;
+    margin: -1px;
 }

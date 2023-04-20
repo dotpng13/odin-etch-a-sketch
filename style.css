@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+#container {
+    flex-direction: column;
+    height: 100vh;
+}
+
+#container, .row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.row {
+    flex-basis: 32px;
+}
+
+.cell {
+    flex-basis: 28px;
+    border: 2px solid black;
+}

@@ -22,3 +22,10 @@ function generateGrid (numSide) {
 }
 
 generateGrid(16);
+
+const cells = document.querySelectorAll(".cell");
+cells.forEach((cell) => {
+    cell.addEventListener("mouseenter", () => {
+        cell.style.backgroundColor = "black";
+    });
+});

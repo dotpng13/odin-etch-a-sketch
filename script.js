@@ -1,10 +1,10 @@
 const container = document.querySelector("#container");
 
 function generateGrid(numSide) {
-    const idealContainerSide = 960;
+    const idealContainerSide = 800;
     const cellSide = Math.round(idealContainerSide / numSide);
-    const rowFlexBasis = cellSide - 2;
-    const cellFlexBasis = cellSide - 4;
+    const rowFlexBasis = cellSide;
+    const cellFlexBasis = cellSide - 2;
     let row, cell;
     
     for (let i = 0; i < numSide; i++) {

@@ -1,15 +1,21 @@
 body {
     margin: 0;
-}
-
-#container {
-    flex-direction: column;
     height: 100vh;
 }
 
-#container, .row {
+body, #container {
+    flex-direction: column;
+}
+
+body, #container, .row {
     display: flex;
     justify-content: center;
+}
+
+button {
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 16px;
 }
 
 .cell {

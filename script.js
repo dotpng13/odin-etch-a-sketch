@@ -25,7 +25,7 @@ function resetGrid() {
     let newSide = prompt("What side length grid would you like?");
     newSide = Number(newSide);
 
-    while(true) {
+    while (true) {
         if (newSide > 100) {
             newSide = prompt("ERROR: the number you entered is too big!"
                 + "\nWhat side length grid would you like?");
